@@ -1,0 +1,56 @@
+.Profile{
+    
+    width:100vw;
+    
+    
+}
+.Profile_Body{
+    display:flex;
+    flex-direction:column;
+}
+.PlayerName{
+    display:flex;
+    justify-content:center;
+    
+}
+.PlayerProfile{
+    display:flex;
+    flex-wrap:wrap;
+    flex-grow:1;
+}
+.Chart{
+    display:flex;
+    flex-grow:0.5;
+    width:700px;
+    height:500px;
+}
+.rightProfile{
+    display:flex;
+    flex-grow:0.5;
+    flex-direction:column;
+    
+    /*align-self: center;*/
+}
+.Player_Value{
+    display:flex;
+    justify-content:space-evenly;
+
+    
+}
+.player_Img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: white;
+    border-radius:200% ;
+}
+.Btn_Block_Player{
+    width:100px;
+    height:40px;
+    background-color:#60e360bf;
+    border:none;
+    color:white;
+    font-weight:bold;
+    border-radius: 20%;
+    margin: 5%;
+}

@@ -1,0 +1,22 @@
+.NavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+    align-self: center !important;
+    align-content: center;
+}
+.NavItem{
+    display: flex;
+    justify-content: center !important;
+    align-content: center;
+    align-content: center;
+    margin-left: 50%;
+}
+.NavLink{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: rgb(185, 184, 184);
+
+}
